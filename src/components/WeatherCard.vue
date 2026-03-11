@@ -13,7 +13,7 @@ defineProps({
 <template>
   <div class="flex flex-col text-white lg:p-10 py-10 px-5 gap-6 mb-6 relative overflow-hidden">
     <div class="flex justify-center">
-      <p>{{ place.location.name }}, {{ place.location.country }}</p>
+      <p class="lg:text-[2em]">{{ place.location.name }}, {{ place.location.country }}</p>
     </div>
     <div class="flex justify-center">
       <h1 class="text-9xl m-5">{{ Math.round(place.current.temp_c) }}&deg;</h1>
